@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #sell{
+            text-align: center;
+        }
+        #sell .sell-detail{
+            margin: 4px 0;
+        }
+    </style>
+</head>
+<body>
+<div id="page">
+    <div id="sell">
+        <form method="post" action="PictureServlet" method="post">
+            <div class="sell-detail">
+                请输入手机号：<input type="number" name="id"/>
+            </div>
+            <div class="sell-detail">
+                请上传行驶证照片：<input type="file" name="driving_book_img">
+            </div>
+            <div class="sell-detail">
+                请上传发动机照片：<input type="file" name="engine_img">
+            </div>
+            <div class="sell-detail">
+                请选择购买时间：<input type="date" name="buy_time">
+            </div>
+            <div class="sell-detail">
+                请输入车型：<input type="text" name="vehicle_type">
+            </div>
+            <div class="sell-detail">
+                请输入行驶距离：<input type="text" name="mileage">
+            </div>
+            <div class="sell-detail">
+                请输入理想价格：<input type="number" name="price">
+            </div>
+            <div class="sell-detail">
+                请输入车系：<input type="text" name="series">
+            </div>
+            <div class="sell-detail">
+                请输入您的地址：<input type="text" name="address">
+            </div>
+            <div class="sell-detail">
+                请输入车况：<input type="text" name="condition">
+            </div>
+            <div class="sell-detail">
+                请输入电话号码：<input type="text" name="iphone">
+            </div>
+            <div class="sell-detail">
+                <input type="submit" value="提交">
+                <input type="reset" value="重置">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
